@@ -3,7 +3,7 @@ template = "template.htm"
 data_location = 65
 file_name_location = 373
 if (len(sys.argv) != 3):
-    print("Usage: dropper.py <file to embed> <file name for download>")
+    print("Usage: dropper-gen.py <file to embed> <file name for download>")
     print("Example:  python main.py C:\Windows\System32\calc.exe calc.exe")
     exit()
 
